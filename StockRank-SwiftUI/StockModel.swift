@@ -8,11 +8,7 @@
 import Foundation
 
 struct StockModel: Hashable, Identifiable {
-    var id: String {
-        return name
-    }
-//    var id: UUID = UUID()
-    
+    var id: UUID = UUID()
     let rank: Int
     let imageName: String
     let name: String
